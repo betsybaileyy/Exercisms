@@ -1,7 +1,14 @@
+
 def two_fer(name):
-    if name is not none:
-        two_fer = "One for {}, one for me".format(name)
-        print(two_fer)
+
+    if name is not None:
+        txt = "One for {}, one for me".format(name)
+        # print("One for {}, one for me.".format(name))
+        print(txt)
+
     else:
-        two_fer_2 = "One for you, one for me"
-        print(two_fer_2)
+        txt_2 = "One for you, one for me"
+        # print("One for you, one for me.")
+        print(txt_2)
+
+two_fer()
