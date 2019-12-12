@@ -20,12 +20,12 @@ func TestShareWith(t *testing.T) {
 	}
 }
 
-func BenchmarkShareWith(b *testing.B) {
-	for i := 0; i < b.N; i++ {
+// func BenchmarkShareWith(b *testing.B) {
+// 	for i := 0; i < b.N; i++ {
 
-		for _, test := range tests {
-			ShareWith(test.name)
-		}
+// 		for _, test := range tests {
+// 			ShareWith(test.name)
+// 		}
 
-	}
-}
+// 	}
+// }
